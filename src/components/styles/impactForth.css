@@ -1,0 +1,93 @@
+.LIves-import {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin-top: 20px;
+    background-image: url('https://www.nmdp.org/static/night-pattern-wide.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  padding: 2rem;
+
+  }
+  
+  .import {
+    width: 26%; 
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px; 
+  }
+  
+  .import img {
+    width: 170%;
+    height: 50%;
+    margin: -6% auto;
+    margin-bottom: 7%;
+    margin-left: -4%;
+    max-width: 108%;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .import h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 10px;
+    margin-left: -3%;
+    max-width: 100%;
+  }
+  
+  .import p {
+    font-size: 1em;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .Jeremiah {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 13px 80px;
+    font-size: 1em;
+    margin-bottom: 14%;
+    font-weight: bold;
+    margin-top: 3%;
+    white-space: nowrap; 
+    text-align: center;
+  }
+  .Natalie{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 13px 90px;
+    font-size: 1em;
+    margin-bottom: 7%;
+    font-weight: bold;
+    margin-top: 12%;
+    white-space: nowrap; 
+    text-align: center;
+  }
+  .Lance{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 13px 90px;
+    font-size: 1em;
+    margin-bottom: 20%;
+    font-weight: bold;
+    margin-top: 17%;
+    white-space: nowrap; 
+    text-align: center;
+  }
+  .compl{
+    height: 100%;
+          border-bottom-right-radius: .5rem;
+          border-bottom-left-radius: .5rem;
+          border-top-left-radius: 0;
+          border-top-right-radius: 0;
+  }

@@ -1,0 +1,51 @@
+.privacy-banner {
+    background-color: #0072ce; /* Blue background */
+    color: white;
+    padding: 40px;
+    position: relative;
+    font-family: Arial, sans-serif;
+  }
+  
+  .privacy-banner .content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .privacy-banner h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .privacy-banner p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .privacy-banner a {
+    color: #cce7ff;
+    text-decoration: underline;
+  }
+  
+  .privacy-banner a:hover {
+    color: white;
+  }
+  
+  .privacy-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://my.bethematch.org/resource/1692842546000/M…x_Join_PrivacyCopy_Resources/PrivacyCopyImage."); 
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20%;
+    opacity: 0.1;
+    z-index: 1;
+  }
+  

@@ -1,0 +1,29 @@
+.give-button {
+    background-color: #0072ce;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.give-button:hover {
+    background-color: #005bb5;
+}
+
+.join-button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.join-button:hover {
+    background-color: #e65b50;
+}

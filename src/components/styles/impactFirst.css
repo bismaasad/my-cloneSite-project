@@ -1,0 +1,85 @@
+.GET-involved-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .TEXT-section {
+    flex: 1;
+    min-width: 300px;
+    max-width: 550px;
+    margin-right: 20px;
+    margin-left: -13%;
+  }
+  
+  .TEXT-section h2 {
+    font-size: 3rem;
+    color: #002d62; 
+    margin-bottom: 15px;
+  }
+  
+  .TEXT-section p {
+    font-size: 2rem;
+    color: #002d62; 
+    line-height: 1.5;
+  }
+  
+  .IMAGE-section {
+    flex: 1;
+    max-width: 500px;
+    
+  }
+  
+  .IMAGE-section img {
+    margin-left: 9.5%;
+    max-width: 136%;
+    border-top-left-radius: 20rem;
+    border-bottom-left-radius: 20rem;
+  }
+  
+  .IMAGE-caption {
+    font-size: 0.9rem;
+    color: rgb(99, 98, 98);
+    margin-top: 10px;
+    margin-left: 60%;
+  }
+  
+  .transplant {
+    margin-top: 6%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .transplant-header {
+    margin-left: 4%;  
+    margin-right: 5%;
+    margin-bottom: 20px;
+  }
+  .trans{
+    font-size: 35px;
+    display: inline-block;
+    color: #002f61;
+  }
+  
+  .transplant-header p {
+    font-size: 1.09rem;
+    color: #333;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+  .transplant-button {
+    background-color: #004fa3;
+    color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-left: 0; 
+    margin-top: 20px;
+    margin-bottom: 2%;
+  }

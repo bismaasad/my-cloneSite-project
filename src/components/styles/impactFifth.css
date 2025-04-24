@@ -1,0 +1,36 @@
+.sporting {
+    margin-top: 6%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sporting-header {
+    margin-left: 4%;  
+    margin-right: 5%;
+    margin-bottom: 20px;
+  }
+  .sport{
+    font-size: 35px;
+    display: inline-block;
+    color: #002f61;
+  }
+  
+  .sporting-header p {
+    font-size: 1.09rem;
+    color: #333;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+  .sporting-button {
+    background-color: #004fa3;
+    color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-left: 0; 
+    margin-top: 20px;
+    margin-bottom: 2%;
+  }

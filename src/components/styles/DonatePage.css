@@ -1,0 +1,325 @@
+.donation-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  .donation-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .header-logo{
+    margin-top: -2%;
+  }
+  .optionsSection{
+    position: absolute;
+    top:5%;
+    left:80.5%;
+  }
+  .donation-header h1 {
+    font-size: 30px;
+    color: #014379;
+    margin-left: -53%;  
+    padding: 35px;
+  }
+  .donation-header p {
+    font-size: 16px; 
+    color: #555;
+    margin-top: 19%;
+    max-width: 450px;
+    margin-left: 10%;
+  }
+  .firstText {
+    font-weight: bold;
+    color: #014379;
+    display: block;
+  }
+  .secondText {
+    margin-top: 7%;
+    display: block;
+  }
+  .thirdText {
+    margin-top: 7%;
+    font-weight: bold;
+    color: #014379;
+    display: block;
+  }
+  .donation-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .donation-image {
+    width: 35%;
+    height: 35%;
+    border-radius: 10px;
+    margin-top: -34%;
+    display:block;
+    max-width: 100%;
+  }
+  .donation-form {
+    box-shadow: 0 0 0 1px #ffffff;
+    padding: 3%;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;  
+    align-items: flex-start;
+    max-width: 350px;
+    margin-top: -35%;
+    background-color: #ffffff;
+  }
+  .donation-form h2{
+    margin-top: -6%; 
+  }
+  .heart{
+    color: #0072ce;
+  }
+  .donation-type label {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 16px;  
+    color: #333;
+  }
+  .donation-amount button {
+    margin: 10px 15px 0px 0px;
+    padding: 15px 60px;
+    font-size: 18px; 
+    font-weight: bold;
+    color: rgb(0, 0, 0); 
+    background-color: #a7cff0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+  }
+  .donation-amount input {
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 14px;
+    width: 100%;
+  }
+  .donation-currency select {
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 14px;  
+    width: 100%;
+  }
+  .donation-submit {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0072ce;
+    color: rgb(238, 238, 238);
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+  }  
+  .all{
+    background-color: rgb(236, 236, 236);
+    width:102dvw;
+    margin-left: -5%;
+    margin-right: 15%;
+  } 
+.buttons{
+  display: flex;
+  justify-content: right;
+}
+select.select.currency{
+  position: absolute;
+  top: 2%;
+  left: 80%;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid rgb(132 127 123);
+  -webkit-padding-end: 30px;
+  padding-inline-end: 30px;
+  background-image: url(data:image/svg+xml;utf8,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%3Cpath%20d%3D%22M7.41%208L12%2012.58L16.59%208L18%209.41L12%2015.41L6%209.41L7.41%208Z%22%20fill%3D%22black%22%20fill-opacity%3D%220.6%22%2F%3E%0A%20%20%3C%2Fsvg%3E);
+  background-repeat: no-repeat;
+  background-position: right 10px top 50%;
+  appearance: none;
+  width: 15.5rem;
+  overflow: hidden;
+  text-overflow: '';  
+}
+@media only screen and (max-width: 600px) {
+  select.select.currency{
+    margin-left: -10%;
+    margin-top: 2%;
+    width: 25%;
+  }
+  .all{
+    background-color: rgb(236, 236, 236);
+    width:97dvw;
+    margin-left: -5%;
+    margin-right: 15%;
+  } 
+  .donation-header h1 {
+    font-size: 30px;
+    margin-left: 0%;  
+    padding: 35px;
+}
+.donation-header p{
+  margin-left: 5%;
+}
+.donation-image {
+  width: 93%;
+  height: 15vh;
+  margin-top: -64%;
+  margin-left: 25%;
+}
+.firstText {
+  margin-left: -17%;
+}
+.thirdText{
+  font-size: 96%;
+  margin-left: -5%;
+}
+.donation-form{
+  margin-top: 4%;
+  margin-left: -60%;
+  margin-right: 12%;
+  margin-bottom: 5%;
+}
+.optionsSection{
+  margin-top: -1%;
+}
+.header-logo{
+  margin-top: -8%;
+}
+.donation-form h2{
+  margin-top: -2%;
+}
+}
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .donation-page {
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+    .donation-header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .donation-header h1 {
+      font-size: 25px;
+      margin-left: -48%;  
+    }
+    .donation-header p {
+      font-size: 16px; 
+      color: #555;
+      margin-top: 19%;
+      max-width: 350px;
+      margin-left: 5%;
+    }
+    .firstText {
+      font-weight: bold;
+      color: #014379;
+      display: block;
+    }
+    .secondText {
+      margin-top: 7%;
+      display: block;
+    }
+    .thirdText {
+      margin-top: 7%;
+      font-weight: bold;
+      color: #014379;
+      display: block;
+    }
+    .donation-content {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+    }
+    .donation-image {
+      width: 42%;
+      height: 35%;
+      margin-left: -1%;
+      border-radius: 10px;
+      margin-top: -54%;
+      display:block;
+      max-width: 100%;
+    }
+    .donation-form {
+      box-shadow: 0 0 0 1px #ffffff;
+      padding: 0.25%;
+      border-radius: 5%;
+      margin-left: -5%;
+      display: flex;
+      flex-direction: column;  
+      align-items: center;
+      max-width: 300px;
+      margin-top: -50%;
+      background-color: #ffffff;
+    }
+    .donation-form h2{
+      margin-top: 3%; 
+      margin-left: 5%;
+    }
+    .donation-amount {
+      margin-left: 7%;
+    }
+    .donation-amount button {
+      margin: 10px 15px 0px 0px;
+      padding: 15px 60px;
+      font-size: 18px; 
+      font-weight: bold;
+      color: rgb(0, 0, 0); 
+      background-color: #a7cff0;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      align-items: center;
+      width: 100px;
+      height: 35px;
+    }
+    .donation-amount input {
+      margin-top: 10px;
+      padding: 8px;
+      font-size: 14px;
+      width: 100%;
+    }
+    .donation-currency select {
+      margin-top: 10px;
+      margin-right: 10px;
+      padding: 8px;
+      font-size: 14px;  
+      width: 100%;
+    }
+    .donation-submit {
+      margin-top: 18px;
+      margin-bottom: 5%;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #0072ce;
+      color: rgb(238, 238, 238);
+      border: none;
+      border-radius: 5px; 
+      cursor: pointer;
+    }  
+    .all{
+      background-color: rgb(236, 236, 236);
+      width:100dvw;
+      margin-left: -5%;
+      margin-right: 15%;
+    } 
+  .buttons{
+    display: flex;
+    justify-content: right;
+  }
+  select.select.currency{
+    position: absolute;
+    top: 2%;
+    left: 80%;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid rgb(132 127 123);
+    -webkit-padding-end: 30px;
+    padding-inline-end: 30px;
+    background-image: url(data:image/svg+xml;utf8,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%3Cpath%20d%3D%22M7.41%208L12%2012.58L16.59%208L18%209.41L12%2015.41L6%209.41L7.41%208Z%22%20fill%3D%22black%22%20fill-opacity%3D%220.6%22%2F%3E%0A%20%20%3C%2Fsvg%3E);
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+    appearance: none;
+    width: 9.5rem;
+    overflow: hidden;
+    text-overflow: '';  
+  }
+  }

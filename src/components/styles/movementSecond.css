@@ -1,0 +1,289 @@
+.Back {
+  background-image: url('https://www.nmdp.org/static/night-pattern-wide.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  height: 75vh;
+}
+
+.CArousel {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 1200px;
+  width: 150%; 
+  margin: auto; 
+  overflow: hidden; 
+  margin-top: 6%;
+  margin-left: -15%;
+}
+
+.hdng {
+  font-size: 2rem;
+  margin-top: -37%;
+  margin-left: 6%;
+  color: white;
+  white-space: nowrap;
+}
+
+.CArousel-Images {
+  overflow: hidden; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CArousel-Images img {
+  width: 160%; 
+  height: 100%; 
+  object-fit: cover; 
+  margin-left: -20%;
+  margin-top: 0%;
+}
+
+.CArousel-Text {
+  padding: 2rem;
+  padding-right: 5rem;
+  margin-left: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.CArousel-Text h2 {
+  font-size: 1.5rem;
+  color: #003366;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.CArousel-Text p {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.Carousel-Button {
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  width: 70%;
+}
+
+.Carousel-Button:hover {
+  background-color: #004c99;
+}
+
+.CArousel-NAvigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25%;
+}
+
+.CArousel-Controls {
+  display: flex;
+  gap: 8rem;
+  margin-top: 50%;
+  margin-right: 600%;
+}
+
+.CArousel-Controls button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color:white;
+  cursor: pointer;
+}
+
+.CArousel-Controls button:hover {
+  color: #0066cc;
+}
+
+.CArousel-Dots {
+  display: flex;
+  justify-content: center;
+  margin-top: -12%;
+  margin-right: 600%;
+  gap: 0.75rem;
+}
+
+.CArousel-Dots span {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.CArousel-Dots .active {
+  background-color: #0066cc;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .CArousel {
+    width: 100%; /* Make carousel container fit the screen */
+    margin-left: -45%; /* Remove negative margin */
+    margin-top: 10%;
+  }
+
+  .CArousel-Images img {
+    width: 100%; /* Adjust the image size to fit */
+    margin-left: 0; /* Remove negative margin */
+  }
+
+  .hdng {
+    font-size: 1.5rem; /* Adjust heading size */
+    margin-top: -55%; /* Adjust heading position */
+    margin-left: 40%; /* Adjust heading position */
+  }
+
+  .CArousel-Text {
+    padding: 1rem;
+    padding-right: 2rem;
+    margin-left: 2%;
+  }
+
+  .CArousel-Text h2 {
+    font-size: 1.2rem;
+  }
+
+  .CArousel-Text p {
+    font-size: 0.9rem;
+  }
+
+  .Carousel-Button {
+    font-size: 0.9rem;
+    width: 100%; 
+  }
+
+  .CArousel-Controls {
+    gap: 6rem;
+    margin-right: 400%;
+    margin-top: 150%;
+  }
+
+  .CArousel-Dots {
+    margin-top: -14%;
+    margin-right: 400%;
+  }
+}
+
+/* For smaller tablets and large phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .CArousel {
+    flex-direction: column; /* Stack carousel vertically */
+    width: 100%; /* Make carousel container fit the screen */
+    height: 90%;
+    margin-left: -45%; /* Remove negative margin */
+  }
+
+  .CArousel-Images img {
+    width: 100%; /* Adjust image size */
+    margin-left: 0; /* Remove negative margin */
+  }
+
+  .hdng {
+    font-size: 1.3rem; /* Adjust heading size */
+    margin-top: -110%; /* Adjust heading position */
+    margin-left: 30%; /* Remove margin */
+  }
+
+  .CArousel-Text {
+    padding: 1rem;
+    padding-right: 2rem;
+    margin-left: 0;  
+    text-align: center;
+  }
+
+  .CArousel-Text h2 {
+    font-size: 1.1rem;
+  }
+
+  .CArousel-Text p {
+    font-size: 0.85rem;
+  }
+
+  .Carousel-Button {
+    font-size: 0.6rem;
+    width: 85%; /* Adjust button size */
+    margin-left: 10%;
+  }
+
+  .CArousel-Controls {
+    gap: 5.5rem;
+    margin-top: 280%;
+    margin-right: 260%;
+  }
+
+  .CArousel-Dots {
+    margin-top: -15%;
+    margin-right: 260%;
+  }
+}
+
+/* For mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+  .CArousel {
+    flex-direction: column; /* Stack carousel vertically */
+    width: 100%; /* Make carousel container fit the screen */
+    margin-left: 0; /* Remove negative margin */
+  }
+
+  .CArousel-Images img {
+    width: 100%; /* Adjust image size */
+    margin-left: 0; /* Remove negative margin */
+  }
+
+  .hdng {
+    font-size: 1.1rem; /* Adjust heading size */
+    margin-top: 10%; /* Adjust heading position */
+    margin-left: 0; /* Remove margin */
+  }
+
+  .CArousel-Text {
+    padding: 1rem;
+    padding-right: 1rem;
+    margin-left: 0;
+  }
+
+  .CArousel-Text h2 {
+    font-size: 1rem;
+  }
+
+  .CArousel-Text p {
+    font-size: 0.8rem;
+  }
+
+  .Carousel-Button {
+    font-size: 0.9rem;
+    width: 100%; /* Adjust button size */
+  }
+
+  .CArousel-Controls {
+    gap: 1rem;
+    margin-top: 35%;
+  }
+
+  .CArousel-Dots {
+    margin-top: -5%;
+    margin-right: 100%;
+  }
+}

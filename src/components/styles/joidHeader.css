@@ -1,0 +1,86 @@
+.Header {
+    background-color: #f9f8d4;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 10px 15px;
+  }
+  
+  .announcement {
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .bold-text {
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
+  }
+  
+  .learn-more {
+    color: #007bff;
+    margin-left: 5px;
+  }
+  
+  .top-bar {
+    background-color: #003f7d;
+    color: white;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 207.5vh;
+    height: 8vh;
+    margin-left: -2%;
+    margin-bottom: -0.75%;
+    
+  }
+  
+  .logo {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 2%;
+  }
+  
+  .top-links a {
+    margin-left: 10px;
+    color: white;
+    font-size: 14px;
+  }
+  @media only screen and (max-width: 600px) {
+    .logo {
+      font-size: 18px;
+      margin-left: 1%;
+      margin-top: 5%;
+  }
+  .top-links{
+    margin-left: -55%;
+  }
+  .top-bar {  
+    background-color: #003f7d;
+    color: white;
+    padding: 5px 20px;
+    width: 71vh;
+    height: 10vh;
+    margin-bottom: -2%;
+    margin-left: -2.5%;
+  }
+}
+  @media only screen and (min-width: 601px) and (max-width:1024px){
+    .top-bar {
+      background-color: #003f7d;
+      color: white;
+      padding: 5px 20px;
+      width: 139.25vh;
+      height: 10vh;
+      margin-bottom: -2%;
+      margin-left: -3%;
+
+    }
+    .logo {
+      font-size: 18px;
+      margin-left: 1%;
+      margin-top: 3%;
+  }
+  }  

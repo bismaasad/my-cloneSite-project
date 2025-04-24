@@ -1,0 +1,124 @@
+.get-involved-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 5px;
+  font-family: Arial, sans-serif;
+}
+
+.text-section {
+  flex: 1;
+  min-width: 300px;
+  max-width: 550px;
+  margin-right: 20px;
+  margin-left: 1%;
+}
+
+.text-section h2 {
+  font-size: 3rem;
+  color: #002d62;
+  margin-bottom: 15px;
+}
+
+.text-section p {
+  font-size: 2rem;
+  color: #002d62;
+  line-height: 1.5;
+}
+
+.image-section {
+  flex: 1;
+  max-width: 500px;
+}
+
+.image-section img {
+  margin-left: -10.2%;
+  max-width: 136%;
+  border-top-left-radius: 20rem;
+  border-bottom-left-radius: 20rem;
+}
+
+.image-caption {
+  font-size: 0.9rem;
+  color: rgb(99, 98, 98);
+  margin-top: 10px;
+  margin-left: 30%;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .text-section {
+      margin-left: -10%; /* Adjust for tablets */
+      max-width: 30%; /* Make text section more flexible */
+  }
+
+  .text-section h2 {
+      font-size: 2.5rem; /* Slightly smaller heading */
+  }
+
+  .text-section p {
+      font-size: 1.8rem; /* Slightly smaller paragraph text */
+  }
+
+  .image-section img {
+      max-width: 120%; /* Adjust image size for tablets */
+      margin-left: 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .get-involved-container {
+      flex-direction: column; /* Stack sections vertically */
+  }
+
+  .text-section {
+      margin-left:0; /* Reset margin for smaller screens */
+      text-align: center; /* Center-align text for better readability */
+  }
+
+  .text-section h2 {
+      font-size: 2rem;
+  }
+
+  .text-section p {
+      font-size: 1.6rem;
+  }
+
+  .image-section {
+      max-width: 100%; /* Adjust image section for small screens */
+      margin-top: 20px;
+  }
+
+  .image-section img {
+      max-width: 100%; /* Ensure the image fits the screen */
+      margin-left: 0;
+      border-top-left-radius: 10rem; /* Reduce corner radius */
+      border-bottom-left-radius: 10rem;
+  }
+
+  .image-caption {
+      font-size: 0.8rem;
+      text-align: center;
+      margin-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-section h2 {
+      font-size: 1.8rem;
+  }
+
+  .text-section p {
+      font-size: 1.4rem;
+  }
+
+  .image-section img {
+      border-top-left-radius: 5rem; /* Further reduce radius for small screens */
+      border-bottom-left-radius: 5rem;
+  }
+
+  .image-caption {
+      font-size: 0.75rem;
+  }
+}

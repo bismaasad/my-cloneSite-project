@@ -1,0 +1,150 @@
+.what-we-do {
+    text-align: center;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: rgb(218, 212, 212);
+}
+.what-we-do h2 {
+    font-size: 2rem;
+    color: #003366;
+    margin-left: -73%;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.what-we-do p {
+    font-size: 1rem;
+    color: #666;
+    margin: 0 60px 20px;
+    max-width: 2000px;
+    text-align: center;
+}
+.cards {  
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    padding: 20px;
+    text-align: left;
+    flex: 1 1 calc(33.333% - 20px); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    object-fit: cover;  
+    margin-bottom: 15px;
+}
+.card img{
+    height:auto;
+}
+.card h3 {
+    font-size: 1.5rem;
+    color: #003366; 
+    margin: 10px 0;
+    text-align: center;
+}
+.card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+    text-align: center;
+    max-width: 1500px;
+}
+.card-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    margin-top: auto; 
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+.card-button:hover {
+    background-color: #0056b3;
+}
+@media (max-width: 1024px) {
+    .card {
+        flex: 1 1 calc(50% - 20px);
+        max-width: 35%;
+    }
+    .what-we-do h2 {
+        font-size: 2rem;
+        margin-left: -62%;
+    }
+    .what-we-do p {
+        font-size: 1rem;
+    }
+    .card img{
+        width:200%;
+        height:auto;
+    }
+} 
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 calc(100% - 20px); 
+        max-width: 68%;
+    }
+    .what-we-do h2 {
+        font-size: 1.8rem;
+        margin-left:-45%;
+    }
+    .what-we-do p {
+        font-size: 0.9rem;
+    }
+    .card img{
+        margin-left: -6%;
+        margin-top: -6.5%;
+        height: 35vh;
+        width:90vw;
+    }
+    
+}
+@media (max-width: 480px) {
+    .what-we-do {
+        padding: 20px 10px;
+    }
+
+    .what-we-do h2 {
+        font-size: 1.6rem;
+    }
+
+    .what-we-do p {
+        font-size: 0.85rem;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    .card h3 {
+        font-size: 1.2rem;
+    }
+
+    .card p {
+        font-size: 0.85rem;
+    }
+
+    .card-button {
+        font-size: 0.9rem;
+    }
+    
+}

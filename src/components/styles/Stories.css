@@ -1,0 +1,224 @@
+.Carousel {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Carousel-text {
+  margin-bottom: 2%;
+  margin-left:28%;
+  margin-right: 28%;
+}
+
+.Carousel-text h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.Carousel-text p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.Carousel-button {
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #ffffff;
+  color: rgb(64, 0, 116);
+  border-color: rgb(0, 0, 119);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.Carousel-button:hover {
+  background-color: #0056b3;
+}
+.Carousel-controls {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  margin-bottom:1.5%;
+  margin-left:-1.8%;
+}
+
+.Carousel-controls button {
+  margin-left: 490%;
+  margin-right: -525%;
+  background: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.Carousel-navigation {
+  display: flex;
+  justify-content: center;
+  margin-top: -42px;
+  gap: 5px;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;  
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-bottom: 10%;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background-color: #007bff;
+}
+
+.NEW{
+  margin-left: -2%;
+  margin-right: -1.5%;
+}
+
+.Carousel-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%; 
+  padding: 20px; 
+}
+
+.main-image img {
+  width: 440px;
+  height: 440px;
+  border-radius: 50%; 
+  object-fit: cover; 
+  transition: transform 0.5s ease;
+}
+
+.side-image img {
+  width: 170px;
+  height: 300px;
+  border-radius: 9999px; 
+  object-fit: cover; 
+  transition: transform 0.5s ease;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .Carousel {
+    width: 100%;
+  }
+
+  .Carousel-text {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .Carousel-text h2 {
+    font-size: 1.2rem;
+  }
+
+  .Carousel-text p {
+    font-size: 0.9rem;
+  }
+
+  .main-image img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .side-image img {
+    width: 100px;
+    height: 200px;
+  }
+
+  .Carousel-controls button {
+    margin-left: 185%;
+    margin-right:-130%;
+    margin-top: -1px;
+  }
+
+  .Carousel-navigation {
+    margin-top: -35px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .Carousel {
+    width: 90%;
+  }
+
+  .Carousel-text {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .Carousel-text h2 {
+    font-size: 1.4rem;
+  }
+
+  .Carousel-text p {
+    font-size: 1rem;
+  }
+
+  .main-image img {
+    width: 380px;
+    height: 380px;
+  }
+
+  .side-image img {
+    width: 150px;
+    height: 250px;
+  }
+
+  .Carousel-controls {
+    width: 80px;
+  }
+  .Carousel-navigation {
+    margin-top: -37px;
+  }
+  .Carousel-controls button {
+    margin-left: 430%;
+    margin-right: -350%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .Carousel {
+    width: 80%;
+  }
+
+  .Carousel-text {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .Carousel-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .Carousel-text p {
+    font-size: 1rem;
+  }
+
+  .main-image img {
+    width: 440px;
+    height: 440px;
+  }
+
+  .side-image img {
+    width: 170px;
+    height: 300px;
+  }
+
+  .Carousel-controls {
+    width: 100px;
+  }
+
+  .Carousel-controls button {
+    margin-left: 490%;
+    margin-right: -525%;
+  }
+}

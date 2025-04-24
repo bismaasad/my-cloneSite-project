@@ -1,0 +1,108 @@
+.donor {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: gainsboro;
+}
+
+.donor-header {
+  margin-left: 4%;
+  margin-right: 5%;
+  margin-bottom: 20px;
+}
+
+.FIrst {
+  font-size: 35px;
+  display: inline-block;
+  color: #002f61;
+}
+
+.donor-header p {
+  font-size: 1.05em;
+  color: #333;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.donor-button {
+  background-color: #004fa3;
+  color: white;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-left: 0;
+  margin-top: 20px;
+  margin-bottom: 2%;
+}
+
+.below {
+  margin-left: 5%;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+.FIrst {
+  font-size: 30px; /* Adjust title size */
+}
+
+.donor-header p {
+  font-size: 1em; /* Adjust paragraph text size */
+}
+
+.donor-button {
+  font-size: 0.9em; /* Adjust button font size */
+  padding: 8px 16px; /* Adjust button padding */
+}
+
+.below {
+  margin-left: 4%; /* Adjust left margin */
+}
+}
+
+/* For large phones (max-width: 768px) */
+@media (max-width: 768px) {
+.FIrst {
+  font-size: 28px; /* Adjust title size */
+}
+
+.donor-header p {
+  font-size: 0.95em; /* Adjust paragraph text size */
+}
+
+.donor-button {
+  font-size: 0.85em; /* Adjust button font size */
+  padding: 7px 15px; /* Adjust button padding */
+}
+
+.below {
+  margin-left: 3%; /* Adjust left margin */
+}
+}
+
+/* For mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+.FIrst {
+  font-size: 24px; /* Adjust title size */
+}
+
+.donor-header p {
+  font-size: 0.9em; /* Adjust paragraph text size */
+  margin-left: 3px; /* Adjust left margin */
+  margin-right: 5px; /* Adjust right margin */
+}
+
+.donor-button {
+  font-size: 0.8em; /* Adjust button font size */
+  padding: 6px 12px; /* Adjust button padding */
+  width: 100%; /* Make button full width */
+}
+
+.below {
+  margin-left: 2%; /* Adjust left margin */
+}
+}

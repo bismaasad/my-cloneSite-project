@@ -1,0 +1,47 @@
+.results-container {
+    background-color: #001F4F; /* Dark blue background */
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.nmdp.org/static/night-pattern-wide.webp');
+    background-size: cover;
+  }
+  
+  .results-title {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .results-subtitle {
+    font-size: 1rem;
+    margin: 0.5rem 0 1.5rem;
+    color: #d0d7e2;
+  }
+  
+  .results-stats {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .stat-item {
+    background-color: #e6f4ff; /* Light blue */
+    color: #001f4f; /* Dark text */
+    padding: 1rem;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 150px; /* Set a fixed width */
+  }
+  
+  .stat-item h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .stat-item p {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  

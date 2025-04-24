@@ -1,0 +1,132 @@
+.impact {
+  background-image: url(https://www.nmdp.org/static/night-pattern-wide.jpg);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .impact h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .impact p {
+    font-size: 1em;
+    margin-left: 24%;
+    margin-bottom: 20px;
+    color: #ffffff;
+    width: 52%;
+  }
+  
+  
+  .impact-button {
+    background-color: #c8d948;
+    color: #012f5e;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 40px;
+  }
+  
+  .impact-stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+    
+  .stat {
+    width: 20%;
+    margin-top: -4%;
+    border-radius: 10px;
+    color: #fff;
+  } 
+  
+  .stat h3 {
+    font-size: 1.8em;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .stat p {
+    font-size: 1em;
+    color: #ffffff;
+    margin-left: 2%;
+    width: 100%;
+  }
+  img {
+    max-width: 100%;
+    margin-top: 4%;
+    height: auto;
+    display: block;
+  }
+  @media only screen and (max-width: 600px) {
+    .impact {
+      padding: 30px 10px;
+    }
+    .impact h2 {
+      font-size: 1.5em;
+    }
+    .impact p {
+      font-size: 0.9em;
+      margin-left: 10%;
+      width: 80%;
+    }
+    .impact-button {
+      padding: 8px 15px;
+      font-size: 0.9em;
+    }
+    .impact-stats {
+      flex-direction: column;
+    }
+    .stat {
+      width: 100%;
+      margin-top: 10px;
+    }
+    .stat h3 {
+      font-size: 1.2em;
+    }
+    .stat p {
+      font-size: 0.9em;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .impact {
+      padding: 40px 20px;
+    }
+    .impact h2 {
+      font-size: 1.8em;
+    }
+    .impact p {
+      font-size: 1em;
+      margin-left: 15%;
+      width: 70%;
+    }
+    .impact-button {
+      padding: 10px 20px;
+      font-size: 1em;
+    }
+    .impact-stats {
+      flex-direction: row;
+    }
+    .stat {
+      width: 25%;
+      margin-top: 10px;
+    }
+    .stat h3 {
+      font-size: 1.5em;
+    }
+    .stat p {
+      font-size: 1em;
+    }
+    img {
+      margin-left: 1%;
+    }
+  }
+  
+  
